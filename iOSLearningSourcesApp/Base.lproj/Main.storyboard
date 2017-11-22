@@ -100,6 +100,7 @@
                                             <constraint firstItem="4Fl-i1-iM5" firstAttribute="width" secondItem="Vf8-An-TOc" secondAttribute="width" multiplier="0.3" id="zrJ-pb-b9o"/>
                                         </constraints>
                                         <connections>
+                                            <outlet property="shortDescLbl" destination="bTS-da-vHB" id="jB3-3k-L9b"/>
                                             <outlet property="thumbnailImg" destination="4Fl-i1-iM5" id="0Xs-G2-AKc"/>
                                             <outlet property="titleLbl" destination="59G-2j-eo0" id="9CT-nz-PBC"/>
                                         </connections>

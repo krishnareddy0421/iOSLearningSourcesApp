@@ -49,6 +49,7 @@ class HomeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
             cell.layer.cornerRadius = 5
             let info = youtubeChannels[indexPath.row]
             cell.titleLbl.text = info["Name"]
+            cell.shortDescLbl.text = info["shortDescription"]
             cell.thumbnailImg.image = UIImage(named: info["CoverImage"]!)
             return cell
         } else {
